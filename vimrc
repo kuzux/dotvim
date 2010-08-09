@@ -160,6 +160,12 @@ if has("mouse")
   set mouse=a
 endif
 
+map <left> <nop>
+map <right> <nop>
+map <up> <nop>
+map <down> <nop>
+
+
 let g:yankring_replace_n_pkey = '<leader>['
 let g:yankring_replace_n_nkey = '<leader>]'
 

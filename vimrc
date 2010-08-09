@@ -62,7 +62,7 @@ set foldlevel=9
 set history=1000
 set wildmenu
 set ruler
-set visualbell
+"set visualbell
 
 set ts=2
 set sw=2

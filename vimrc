@@ -67,6 +67,9 @@ set ruler
 set ts=2
 set sw=2
 
+au BufNewFile,BufRead *.ooc set filetype=ooc
+
+
 "fixdel
 
 " prevent vim from adding that stupid empty line at the end of every file

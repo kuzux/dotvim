@@ -25,7 +25,7 @@ let g:syntastic_enable_signs=1
 colorscheme vividchalk
 set background=dark
 
-let bash_is_sh=1
+"let bash_is_sh=1
 set cinoptions=:0,(s,u0,U1,g0,t0
 
 set modelines=5
@@ -70,8 +70,8 @@ set sw=2
 "fixdel
 
 " prevent vim from adding that stupid empty line at the end of every file
-set noeol
-set binary
+"set noeol
+"set binary
 
 "Ignore these files when completing names and in Explorer
 set wildignore=.svn,CVS,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif

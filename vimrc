@@ -25,7 +25,7 @@ let g:syntastic_enable_signs=1
 colorscheme vividchalk
 set background=dark
 
-"let bash_is_sh=1
+let bash_is_sh=0
 set cinoptions=:0,(s,u0,U1,g0,t0
 
 set modelines=5
@@ -146,7 +146,7 @@ let g:Conque_Read_Timeout = 50 " timeout for waiting for command output.
 let g:Conque_TERM = 'xterm'
 
 " ,sh to open vimshell window
-nmap <Leader>sh :ConqueSplit bash<cr>
+nmap <Leader>sh :ConqueSplit zsh<cr>
 
 " ,r to open vimshell window
 nmap <Leader>r :ConqueSplit 

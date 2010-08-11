@@ -69,7 +69,6 @@ set sw=2
 
 au BufNewFile,BufRead *.ooc set filetype=ooc
 
-
 "fixdel
 
 " prevent vim from adding that stupid empty line at the end of every file
@@ -155,6 +154,11 @@ nmap <Leader>r :ConqueSplit
 
 " map ,y to show the yankring
 nmap <leader>y :YRShow<cr>
+
+" shim commands
+autocmd FileType haskell nmap <leader>hs :GhciFile<CR>
+autocmd FileType haskell nmap <leader>hr :GhciRange<CR>
+autocmd FileType haskell vmap <leader>hr :GhciRange<CR>
 
 if has("mouse")
   set mouse=a

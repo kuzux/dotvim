@@ -1,7 +1,6 @@
 "set cuc
 set cul
 
-colorscheme koehler
 set guioptions-=T
 map <A-1> 1gt
 map <A-2> 2gt

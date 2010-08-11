@@ -159,6 +159,10 @@ Check out the 'vimrc' file for more...
 
 	`,sh` - start a vimsh window
 	`,r`  - opens vim prompt for command to run
+*   shim ([vim.org](http://www.vim.org/scripts/script.php?script_id=2356))
+    Superior haskell interaction mode. Ghci in a buffer
+    `,hs` - starts ghci and loads the current file
+    `,hr` - starts ghci and loads the current range
 
 *   drillctg 1.1.3 ([vim.org](http://www.vim.org/scripts/script.php?script_id=2013))
 

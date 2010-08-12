@@ -160,7 +160,9 @@ Check out the 'vimrc' file for more...
 	`,sh` - start a vimsh window
 	`,r`  - opens vim prompt for command to run
 *   shim ([vim.org](http://www.vim.org/scripts/script.php?script_id=2356))
+
     Superior haskell interaction mode. Ghci in a buffer
+    
     `,hs` - starts ghci and loads the current file
     `,hr` - starts ghci and loads the current range
 
@@ -196,6 +198,7 @@ Check out the 'vimrc' file for more...
     Keep Window on Buffer Delete - Improved
 
 *   gist ([vim.org](http://www.vim.org/scripts/script.php?script_id=2423))
+
     integration with http://gist.github.com
 
 *   repeat ([vim.org](http://www.vim.org/scripts/script.php?script_id=2136)) ([github](http://github.com/tpope/vim-repeat))

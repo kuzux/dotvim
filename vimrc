@@ -51,7 +51,6 @@ set ruler
 "set visualbell
 set autoread            " automatically read feil that has been changed on disk and doesn't have changes in vim
 set backspace=indent,eol,start
->>>>>>> c4e38ade60b98367e1ece77a2ef63f03a6771ba4
 
 set ts=2
 set sw=2

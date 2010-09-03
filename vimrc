@@ -8,20 +8,6 @@ end
 syntax on
 filetype plugin indent on
 
-"set completeopt=menuone,preview,longest
-set completeopt=menuone,preview
-"inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-
-" Omni completion settings
-set ofu=syntaxcomplete#Complete
-let g:rubycomplete_buffer_loading = 0
-let g:rubycomplete_classes_in_global = 1
-" completing Rails hangs a lot
-"let g:rubycomplete_rails = 1
-
-" syntastic
-let g:syntastic_enable_signs=1
-
 colorscheme vividchalk
 set background=dark
 
@@ -63,6 +49,9 @@ set history=1000
 set wildmenu
 set ruler
 "set visualbell
+set autoread            " automatically read feil that has been changed on disk and doesn't have changes in vim
+set backspace=indent,eol,start
+>>>>>>> c4e38ade60b98367e1ece77a2ef63f03a6771ba4
 
 set ts=2
 set sw=2
@@ -90,9 +79,28 @@ hi! link ShowMarksHLu LineNr
 hi! link ShowMarksHLo LineNr
 hi! link ShowMarksHLm LineNr
 
-
 " Make
 :command -nargs=* Make make <args> | cwindow 3
+
+"set completeopt=menuone,preview,longest
+set completeopt=menuone,preview
+"inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
+" Omni completion settings
+set ofu=syntaxcomplete#Complete
+let g:rubycomplete_buffer_loading = 0
+let g:rubycomplete_classes_in_global = 1
+" completing Rails hangs a lot
+"let g:rubycomplete_rails = 1
+
+" syntastic
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1
+
+" delimitMate
+let g:delimitMate_expand_space = 1
+let g:delimitMate_expand_cr = 1
+
 
 let mapleader = ","
 
@@ -150,8 +158,6 @@ nmap <Leader>sh :ConqueSplit zsh<cr>
 " ,r to open vimshell window
 nmap <Leader>r :ConqueSplit 
 
-
-
 " map ,y to show the yankring
 nmap <leader>y :YRShow<cr>
 
@@ -169,8 +175,8 @@ map <right> <nop>
 map <up> <nop>
 map <down> <nop>
 
-
 let g:yankring_replace_n_pkey = '<leader>['
 let g:yankring_replace_n_nkey = '<leader>]'
 
 set shell=/bin/zsh
+
